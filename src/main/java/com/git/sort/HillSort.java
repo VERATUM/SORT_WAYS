@@ -35,7 +35,7 @@ public class HillSort {
 				len = len / 2;
 				for (int i = 0; i < len; i++) { // 分组
 					for (int j = i + len; j < t.length; j += len){
-						// 元素从第二哥开始
+						// 元素从第二个开始
 						int k = j - len; // k为有序序列最后一位的位数
 						T temp = t[j]; // 要插入的元素
 						while(k >= 0 && temp.compareTo(t[k]) > 0){// 从大到小排序
