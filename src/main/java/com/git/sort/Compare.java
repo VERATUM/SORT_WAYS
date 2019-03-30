@@ -4,8 +4,8 @@ public class Compare {
 	/**
 	 * 获取传入数组的最大与最小值
 	 *
-	 * @param num
-	 * @param <T>
+	 * @param num 数组
+	 * @param <T> 类型
 	 * @return
 	 */
 	public <T extends Comparable<T>> Num<T> getMaxAndMin(T[] num) {
