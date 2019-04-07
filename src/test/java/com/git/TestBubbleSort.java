@@ -4,7 +4,7 @@ import com.git.sort.BubbleSort;
 import org.junit.Test;
 
 public class TestBubbleSort {
-	BubbleSort bubbleSort = new BubbleSort();
+	private BubbleSort bubbleSort = new BubbleSort();
 	@Test
 	public void testBubbleSortInteger(){
 		Integer[] integers = new Integer[]{1, 5, 7, 8, 11, 6, 3};
